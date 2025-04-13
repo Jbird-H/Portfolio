@@ -22,7 +22,7 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 ''')
 print("Welcome to Treasure Island.")
 print("Your mission is to find the treasure.")
-adventure_begins = input("You find yourself standing before a fork in the road, do you go left or right?")
+adventure_begins = input("You find yourself standing before a fork in the road, do you go left or right?\n")
 if adventure_begins == "left" or adventure_begins == "Left":
     print('''     .-.                                    ,-.
   .-(   )-.                              ,-(   )-.
@@ -64,7 +64,7 @@ else:
      (_/   jgs                              \_) ''')
     print("G A M E  O V E R")
     raise SystemExit
-lake_choice = input("You wander down a tree covered lane reaching a small lake, do you swim across or wait for a boat? ")
+lake_choice = input("You wander down a tree covered lane reaching a small lake, do you swim across or wait for a boat?\n")
 if lake_choice == "swim" or lake_choice == "swim across":
     print("You are instantly entangled in the lake grass and cannot get free.")
     print('''                   ______
@@ -97,7 +97,7 @@ else:
    ( )|-|-|-|====|-|-|-|( )
 jgs^^^^^^^^^^====^^^^^^^^^^^''')
     print("He urges you to choose one of the three huts to spend the night in")
-fishing_hut_choice = input("Do you choose the blue, green or red roofed fishing hut?")
+fishing_hut_choice = input("Do you choose the blue, green or red roofed fishing hut?\n")
 if fishing_hut_choice == "red" or fishing_hut_choice == "Red" or fishing_hut_choice == "red hut":
     print ("As you open the door you fail to notice the trip wire, setting off a large explosion")
     print('''                   ______
